@@ -24,13 +24,13 @@ jobs:
       run: dotnet build --no-restore
     - name: Run tests
       run: |
-      echo "Running Project1"
-      dotnet test TestProject1/TestProject1.csproj --verbosity normal
+        echo "Running Project1"
+        dotnet test TestProject1/TestProject1.csproj --verbosity normal
     - name: Run tests
       run: |
-      echo "Running Project2"
-      dotnet test TestProject2/TestProject2.csproj --verbosity normal
+        echo "Running Project2"
+        dotnet test TestProject2/TestProject2.csproj --verbosity normal
     - name: Run tests
       run: |
-      echo "Running Project3"
-      dotnet test TestProject3/TestProject3.csproj --verbosity normal
+        echo "Running Project3"
+        dotnet test TestProject3/TestProject3.csproj --verbosity normal
